@@ -179,7 +179,7 @@ main #moments {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
 }
 
 .parent-4 h2 {
@@ -216,3 +216,190 @@ main #moments {
   transform: translateY(-3px);
 }
 
+footer {
+  background-color: #ca0216;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo img {
+  border-radius: 1000px;
+  background-color: #ffff;
+  width: 130px;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-info p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* For screens smaller than 768px (tablets and smaller devices) */
+@media (max-width: 1194px) {
+  .img-bg {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+
+  .img-bg img {
+    height: 300px;
+  }
+
+  .img-bg h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-bg p {
+    padding: 0;
+    max-width: 60%;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+  }
+
+  .parent-2 p {
+    margin-top: 300px;
+    font-size: 16px; /* Decrease font size for better readability */
+    width: 90%; /* Adjust width for better responsiveness */
+    text-align: justify;
+  }
+
+  .parent-2 img {
+    height: auto; /* Ensure image height adjusts proportionally */
+  }
+
+  .video-container {
+    margin-top: 30px; /* Adjust margin for smaller screens */
+    margin-left: 0; /* Center-align video container */
+  }
+
+  .video-container video {
+    width: 100%; /* Ensure video fills its container */
+    height: auto; /* Ensure video height adjusts proportionally */
+  }
+
+  .gallery-item {
+    width: calc(50% - 20px); /* Adjust gallery item width for better layout */
+  }
+
+  .parent-3 img {
+    width: 80%; /* Adjust image width for better responsiveness */
+    height: 400px;
+    margin: 20px auto; /* Center-align images and add some vertical spacing */
+  }
+
+  .essay {
+    height: 400px; /* Allow essay container to adjust its height */
+    max-width: 70%; /* Adjust max-width for better responsiveness */
+    margin: 20px auto; /* Center-align essay container and add some vertical spacing */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .essay p {
+    font-size: 16px; /* Decrease font size for better readability */
+  }
+
+  .parent-4 {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .parent-4 h2 {
+    font-size: 24px; /* Decrease font size for better readability */
+  }
+
+  .parent-4 h1 {
+    font-size: 60px; /* Decrease font size for better readability */
+  }
+
+  .soc-media {
+    flex-direction: row; /* Change to column layout for better stacking */
+    gap: 20px; /* Add gap between icons */
+    align-items: center; /* Center align icons */
+  }
+
+  .soc-media img {
+    width: 80px; /* Decrease icon size for smaller screens */
+    height: 80px; /* Decrease icon size for smaller screens */
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+}
+
+/* For screens smaller than 480px (small smartphones) */
+@media (max-width: 810px) { 
+  h1 {
+    font-size: 30px; /* Decrease font size for better readability */
+  }
+
+  .img-bg {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+  }
+
+  .img-bg h1 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-bg p {
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+  }
+
+  .people {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .parent-2 p {
+    font-size: 14px; /* Further decrease font size for better readability */
+    width: 90%; /* Adjust width for better responsiveness */
+  }
+
+  .parent-3 img {
+    width: 90%; /* Further adjust image width for better responsiveness */
+  }
+
+  .essay {
+    margin: 10px auto; /* Center-align essay container and reduce margin */
+  }
+
+  .essay p {
+    font-size: 14px; /* Further decrease font size for better readability */
+  }
+
+  .parent-4 h2 {
+    font-size: 20px; /* Further decrease font size for better readability */
+  }
+
+  .parent-4 h1 {
+    font-size: 50px; /* Further decrease font size for better readability */
+  }
+
+  .soc-media img {
+    width: 60px; /* Further decrease icon size for smaller screens */
+    height: 60px; /* Further decrease icon size for smaller screens */
+    padding: 5px; /* Further decrease padding for smaller screens */
+  }
+}
