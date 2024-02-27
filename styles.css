@@ -149,7 +149,7 @@ main #moments {
   width: 200px;
   height: 600px;
   object-fit: cover;
-  margin-top: 50px;
+  margin: 20px;
   margin-right: 50px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -160,7 +160,7 @@ main #moments {
   overflow: auto;
   padding: 20px;
   background-color: #ffffff;
-  margin: 50px;
+  margin: 20px;
   max-width: 800px;
   border-radius: 10px;
   box-shadow: inset 0 -10px 15px -15px #000000;
@@ -378,11 +378,11 @@ footer {
   }
 
   .parent-3 img {
-    width: 90%; /* Further adjust image width for better responsiveness */
+    width: 40%; /* Further adjust image width for better responsiveness */
   }
 
   .essay {
-    margin: 10px auto; /* Center-align essay container and reduce margin */
+    margin-left: 10px; /* Center-align essay container and reduce margin */
   }
 
   .essay p {
