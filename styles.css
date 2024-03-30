@@ -76,14 +76,15 @@ main h2 {
   flex-direction: column;
 }
 
-.parent-2 p {
+.parent-2 blockquote {
+  font-style: italic;
   font-size: 18px;
   margin-top: 40px;
   margin-left: 20px;
   padding: 5px;
   width: 50%;
-  border-right: 3px solid #00000083;
-  background-color: #f7f7f7d8;
+  border-right: 3px solid #d61528;
+  background-color: #f7f7f7ad;
   border-radius: 5px;
   text-align: right;
   box-shadow: 0px 0px 3px 0px;
@@ -113,9 +114,12 @@ main #moments {
 
 .gallery {
   padding-top: 10px;
+  height: 500px;
+  overflow: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-shadow: inset 0 -10px 20px -15px #000000;
 }
 
 .gallery-item {
@@ -182,16 +186,23 @@ main #moments {
   padding: 30px;
 }
 
+iframe {
+  width: 500px;
+  height: 435px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px;
+}
+
 .parent-4 h2 {
   all: revert;
-  font-size: 30px;
+  font-size: 25px;
   text-shadow: 0px 0px 2px;
 }
 
 .parent-4 h1 {
   all: revert;
   font-family: 'Dancing Script', cursive;
-  font-size: 90px;
+  font-size: 60px;
   text-shadow: 0px 0px 2px;
 }
 
@@ -203,7 +214,7 @@ main #moments {
 }
 
 .soc-media img {
-  padding: 20px;
+  padding: 10px;
   width: 100px;
   height: 100px;
   border-radius: 1000px;
@@ -218,6 +229,7 @@ main #moments {
 
 footer {
   background-color: #ca0216;
+  border-top: 10px solid #d61528;
   color: #fff;
   padding: 20px 0;
 }
@@ -254,14 +266,11 @@ footer {
     flex-direction: column;
     margin: 0;
     width: 100%;
-  }
-
-  .img-bg img {
     height: 300px;
   }
 
   .img-bg h1 {
-    font-size: 40px;
+    font-size: 5vw;
     width: 100%;
     text-align: center;
   }
@@ -269,12 +278,12 @@ footer {
   .img-bg p {
     padding: 0;
     max-width: 60%;
-    font-size: 20px;
+    font-size: 3vw;
     text-align: center;
     border: none;
   }
 
-  .parent-2 p {
+  .parent-2 blockquote {
     margin-top: 300px;
     font-size: 16px; /* Decrease font size for better readability */
     width: 90%; /* Adjust width for better responsiveness */
@@ -328,6 +337,11 @@ footer {
     font-size: 60px; /* Decrease font size for better readability */
   }
 
+  .parent-4 iframe {
+    max-width: 500px; /* Adjust iframe width for better responsiveness */
+    height: 435px; /* Adjust iframe height for better responsiveness */
+  }
+
   .soc-media {
     flex-direction: row; /* Change to column layout for better stacking */
     gap: 20px; /* Add gap between icons */
@@ -342,7 +356,7 @@ footer {
 }
 
 /* For screens smaller than 480px (small smartphones) */
-@media (max-width: 810px) { 
+@media (max-width: 610px) { 
   h1 {
     font-size: 30px; /* Decrease font size for better readability */
   }
@@ -361,7 +375,6 @@ footer {
   }
 
   .img-bg p {
-    padding: 0;
     font-size: 20px;
     text-align: center;
     border: none;
@@ -372,7 +385,7 @@ footer {
     height: 600px;
   }
   
-  .parent-2 p {
+  .parent-2 blockquote {
     font-size: 14px; /* Further decrease font size for better readability */
     width: 90%; /* Adjust width for better responsiveness */
   }
@@ -391,10 +404,16 @@ footer {
 
   .parent-4 h2 {
     font-size: 20px; /* Further decrease font size for better readability */
-  }
+  }s
 
   .parent-4 h1 {
     font-size: 50px; /* Further decrease font size for better readability */
+  }
+
+  .parent-4 iframe {
+    scale: 67%;
+    width: 500px;
+    height: 435px; /* Adjust iframe height for better responsiveness */
   }
 
   .soc-media img {
