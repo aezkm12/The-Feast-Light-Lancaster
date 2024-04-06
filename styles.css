@@ -185,15 +185,12 @@ main #moments {
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 20px;
   padding: 30px;
 }
 
 .embeds {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 iframe {
@@ -356,10 +353,6 @@ footer {
     max-width: 500px; /* Adjust iframe width for better responsiveness */
     height: 435px; /* Adjust iframe height for better responsiveness */
   }
-
-  .embeds {
-    padding: 0;
-  }
   
   .soc-media {
     flex-direction: row; /* Change to column layout for better stacking */
@@ -426,6 +419,7 @@ footer {
   }
 
   .parent-4 h2 {
+    margin-top: -20px;
     font-size: 20px; /* Further decrease font size for better readability */
   }
 
@@ -433,8 +427,12 @@ footer {
     font-size: 50px; /* Further decrease font size for better readability */
   }
 
+  .parent-4 {
+    margin-top: -20px;
+  }
+
   .parent-4 iframe {
-    transform: scale(0.8);
+    scale: 72%;
   }
 
   .soc-media img {
