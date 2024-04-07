@@ -1,7 +1,5 @@
 # The Feast Light Lancaster
 
-![The Feast Light Lancaster](icons/feastlightlancaster.png)
-
 ## Table of Contents
 - [About](#about)
 - [Mission](#mission)
@@ -24,15 +22,15 @@ Explore some memorable moments from our gatherings.
 Read about the personal experiences and journeys of our community members.
 
 ## Social Media
-Stay connected with us on social media. Follow us for updates, events, and inspirational content:
+Stay connected with us on social media. Follow us for updates, events, and inspirational content.
 
 - [Facebook](https://www.facebook.com/feastlightLNC)
 - [Instagram](https://www.instagram.com/thefeastlight.lancaster/)
 - [TikTok](https://www.tiktok.com/@_ggtvgaray)
 
 ## Schedule
-Join us every last Saturday of the month for our gatherings at McDonalds Lancaster. Mark your calendars and don't miss out on the opportunity to connect with our community.
+Join us **every last Saturday of the month** for our gatherings at McDonalds Lancaster. Mark your calendars and don't miss out on the opportunity to connect with our community.
 
 ## Contact
-For any inquiries or questions, feel free to reach out to us at [The Feast Light Lancaster]([https://aezkm12.github.io/thefeastlightlancaster/](https://www.facebook.com/feastlightLNC)).
+For any inquiries or questions, feel free to reach out to us at [The Feast Light Lancaster](https://www.facebook.com/feastlightLNC).
 
