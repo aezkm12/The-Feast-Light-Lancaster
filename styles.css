@@ -72,7 +72,6 @@ header h2 {
   text-shadow: 0px 0px 3px #ffff;
 }
 
-
 h2 {
   color: #ffff;
   font-size: 25px;
@@ -84,7 +83,7 @@ h2 {
 .img-bg {
   margin-top: 55px;
   width: 100%;
-  height: 600px;
+  height: 100vh;
   background-image: url(imgs/people.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -107,20 +106,23 @@ h2 {
   border-image: fill 1 linear-gradient(#ebebeba9, #ebebeba9);
 }
 
+.overlay2 {
+  border-image: fill 1 linear-gradient(#353535a9, #696969a9);
+}
+
 h1 {
-  font-size: 60px;
+  font-size: 4vw;
   width: 30%;
   text-align: left;
-  text-shadow: 0px 0px 10px #ffff;
+  text-shadow: 0px 0px 1px;
 }
 
 .img-bg p {
-  font-size: 35px;
+  font-size: 2.5vw;
   max-width: 60%;
-  border-left: 5px solid;
-  border-radius: 5px;
+  border-left: 10px solid #d61528;
   padding-left: 20px;
-  text-shadow: 0px 0px 10px #ffff;
+  text-shadow: 0px 0px 1px;
 }
 
 main h2 {
@@ -131,46 +133,41 @@ main h2 {
 }
 
 .parent-2 {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff36;
+  width: 100%;
+  height: 100vh;
+  background-image: url(imgs/kuya-ge.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-content: center;
 }
 
 .parent-2 blockquote {
+  color: #ffff;
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.2vw;
   margin-top: 40px;
   margin-left: 20px;
-  padding: 5px;
+  padding-right: 20px;
   width: 50%;
-  border-right: 3px solid #d61528;
-  background-color: #f7f7f7ad;
-  border-radius: 5px;
+  border-right: 5px solid #d61528;
   text-align: right;
-  box-shadow: 0px 0px 3px 0px;
-}
-
-.parent-2 img {
-  position: absolute;
-  width: 100%;
-  height: 680px;
-  object-fit: cover;
-  z-index: -1;
 }
 
 .video-container {
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 20px;
+  margin-left: 180px;
 }
 
 .video-container video {
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
 }
 
 .gallery {
   padding-top: 10px;
-  height: 500px;
+  height: 90vh;
   overflow: auto;
   display: flex;
   flex-wrap: wrap;
@@ -210,9 +207,18 @@ main h2 {
 }
 
 .parent-3 {
+  border-image: fill 1 linear-gradient(#353535a9, #353535a9);
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(imgs/ugats.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-content: center;
 }
 
 .parent-3 img {
@@ -229,7 +235,7 @@ main h2 {
   height: 500px;
   overflow: auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #ffffffa2;
   margin: 20px;
   max-width: 800px;
   border-radius: 10px;
@@ -244,6 +250,7 @@ main h2 {
 }
 
 .parent-4 {
+  text-shadow: 0px 0px 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,26 +258,29 @@ main h2 {
   text-align: center;
   padding: 30px;
   gap: 20px;
-}
-
-iframe {
-  width: 500px;
-  height: 435px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 3px 0px;
-}
-
-.parent-4 h2 {
-  all: revert;
-  font-size: 25px;
-  text-shadow: 0px 0px 2px;
+  background-image: url(imgs/social.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-content: center;
 }
 
 .parent-4 h1 {
   all: revert;
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
-  text-shadow: 0px 0px 2px;
+}
+
+.parent-4 h2 {
+  all: revert;
+  font-size: 25px;
+}
+
+.parent-4 p {
+  all: revert;
+  font-size: 18px;
+  text-shadow: 0px 0px 1px;
 }
 
 .soc-media {
@@ -284,7 +294,8 @@ iframe {
   padding: 10px;
   width: 100px;
   height: 100px;
-  border-radius: 1000px;
+  border-radius: 100%;
+  background-color: #ffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s linear, box-shadow 0.3s linear;
 }
@@ -334,10 +345,6 @@ footer {
     font-size: 25px; /* Decrease font size for better readability */
   }
 
-  .img-bg {
-    height: 400px;
-  }
-
   .mission-cont {
     flex-direction: column;
     width: 100%;
@@ -358,14 +365,15 @@ footer {
   }
 
   .parent-2 blockquote {
-    margin-top: 300px;
+    margin: 0 auto;
+    margin-top: -70px;
     font-size: 16px; /* Decrease font size for better readability */
     width: 90%; /* Adjust width for better responsiveness */
     text-align: justify;
   }
 
-  .parent-2 img {
-    height: auto; /* Ensure image height adjusts proportionally */
+  .parent-2 {
+    background-position: -500px;
   }
 
   .video-container {
@@ -452,16 +460,13 @@ footer {
     font-size: 10px;
     padding: 5px;
   }
+
   h1 {
     font-size: 25px; /* Decrease font size for better readability */
   }
 
   h2 {
     font-size: 24px; /* Decrease font size for better readability */
-  }
-
-  .img-bg {
-    height: 600px;
   }
 
   .mission-cont {
@@ -497,6 +502,10 @@ footer {
     width: 40%; /* Further adjust image width for better responsiveness */
   }
 
+  .gallery {
+    height: 700px;
+  }
+
   .gallery-item.expanded {
     transform: scale(2);
   }
@@ -511,28 +520,6 @@ footer {
 
   .parent-4 h2 {
     font-size: 20px; /* Further decrease font size for better readability */
-  }
-
-  .parent-4 h1 {
-    font-size: 45px; /* Further decrease font size for better readability */
-  }
-
-  .parent-4 {
-    margin-top: -90px;
-  }
-
-  .parent-4 h1, .parent-4 h2, .parent-4 p, .parent-4 .soc-media {
-    margin-top: -20px;
-  }
-
-  .embeds {
-    scale: 75%;
-  }
-
-  .parent-4 iframe {
-    position: relative;
-    scale: 90%;
-    
   }
 
   .soc-media img {
