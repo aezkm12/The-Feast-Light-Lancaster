@@ -55,11 +55,11 @@
 
           Simple lang, isang grupo ng kabataan na nagbubuklod sa
           <b>McDonalds Lancaster every last Saturday of the month!</b> Kung saan
-          mayrong jamming, talk at worship. At higit sa lahat may pagkain!
+          mayroong jamming, talk at worship. At higit sa lahat may pagkain!
           <br /><br />
 
           Nabuo itong grupo na ito, to be a reminder to all youths that you're
-          doing great padin sa buhay na tinatahak mo ngayon despite all the
+          doing great padin sa buhay na tinatahak mo ngayon, despite all the
           challenges and trials. At ma-remind na may Diyos padin na nagmamahal
           sa kanila. <br /><br />
 
@@ -331,32 +331,6 @@
         </div>
       </footer>
     </main>
-    <script>
-      document.body.addEventListener("click", function (event) {
-        var clickedElement = event.target;
-        // Check if the clicked element is not a gallery-item or its child
-        if (!clickedElement.closest(".gallery-item")) {
-          resetWidth();
-        }
-      });
-
-      function toggleWidth(element) {
-        // Check if the clicked item is already expanded
-        var isExpanded = element.classList.contains("expanded");
-        // Reset width of all gallery-items
-        resetWidth();
-        // If the clicked item was not expanded, expand it
-        if (!isExpanded) {
-          element.classList.add("expanded");
-        }
-      }
-
-      function resetWidth() {
-        var galleryItems = document.querySelectorAll(".gallery-item");
-        galleryItems.forEach(function (item) {
-          item.classList.remove("expanded");
-        });
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

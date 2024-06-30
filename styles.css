@@ -24,7 +24,7 @@ header {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  background-color: #ca0216;
+  background-color: #ca0216da;
   box-shadow: 0px 0px 2px 0px;
   padding: 10px;
   z-index: 3;
@@ -81,7 +81,6 @@ h2 {
 
 /*MISSION*/
 .img-bg {
-  margin-top: 55px;
   width: 100%;
   height: 100vh;
   background-image: url(imgs/people.jpg);
@@ -113,16 +112,36 @@ h2 {
 h1 {
   font-size: 4vw;
   width: 30%;
-  text-align: left;
+  text-align: center;
   text-shadow: 0px 0px 1px;
+  padding-right: 20px;
+  border-right: 10px solid #d61528;
+  animation: mission 1s forwards;
 }
 
 .img-bg p {
   font-size: 2.5vw;
   max-width: 60%;
-  border-left: 10px solid #d61528;
   padding-left: 20px;
   text-shadow: 0px 0px 1px;
+  animation: mission 2s forwards;
+}
+
+@keyframes mission {
+  0% {
+    opacity: 0;
+    max-width: 0%;
+  }
+  50% {
+    opacity: 0;
+    max-width: 0%;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 main h2 {
@@ -346,27 +365,22 @@ footer {
   }
 
   .mission-cont {
-    flex-direction: column;
     width: 100%;
   }
 
   .img-bg h1 {
     font-size: 5vw;
     width: 100%;
-    text-align: center;
   }
 
   .img-bg p {
-    padding: 0;
     max-width: 60%;
     font-size: 3vw;
-    text-align: center;
-    border: none;
   }
 
   .parent-2 blockquote {
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: 30px;
     font-size: 16px; /* Decrease font size for better readability */
     width: 90%; /* Adjust width for better responsiveness */
     text-align: justify;
@@ -478,6 +492,8 @@ footer {
     font-size: 40px;
     width: 100%;
     text-align: center;
+    border: none;
+    padding: 0;
   }
 
   .mission-cont p {
@@ -486,6 +502,7 @@ footer {
     max-width: 100%;
     text-align: center;
     border: none;
+    padding: 0;
   }
 
   .people {
