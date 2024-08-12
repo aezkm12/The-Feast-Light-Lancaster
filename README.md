@@ -1,5 +1,5 @@
 # The Feast Light Lancaster
-
+- Visit the website [here](https://mejiaschristian.github.io/thefeastlightlancaster) 
 ## Table of Contents
 - [About](#about)
 - [Mission](#mission)
