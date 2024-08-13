@@ -570,6 +570,15 @@ footer {
     max-width: 80vw;
     max-height: 400px;
   }
+  
+  .gallery-item:nth-child(34) h2 {
+    font-size: 12px;
+  }
+
+  .gallery-item:nth-child(34) img {
+    width: 80px;
+    height: 80px;
+  }
 
   .essay {
     margin-left: 10px; /* Center-align essay container and reduce margin */
